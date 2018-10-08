@@ -1,0 +1,24 @@
+{
+"manifest_version": 2,
+
+"name": "Human Centered Computing, Oxford",
+ "version": "1.0",
+ "description": "Facebook study, Y",
+
+ "content_scripts": [
+	 {
+		"matches": ["https://www.facebook.com/*"],
+	 	// "css": ["main.css"],
+	 	"run_at": "document_end",
+	 	"js": ["script.js"]
+	 }
+ ],
+ "permissions": [
+ 	"storage"
+ ],
+ 
+ "page_action": {
+    "default_icon": "blank.png"
+    // "default_title": "FB minimiser"
+  }
+}
