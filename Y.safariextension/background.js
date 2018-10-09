@@ -1,7 +1,7 @@
 //for whatever reason, new Date on Safari gives one hour later result...
 // localStorage.clear();
 interventionStart = new Date('2018-10-29T08:00:00');
-interventionEnd = new Date('2018-11-10T08:00:00');
+interventionEnd = new Date('2018-11-12T08:00:00');
 studyEnd = new Date('2018-11-25T16:00:00');
 
 // console.log("start is " + interventionStart + " and end is " + interventionEnd + ". Current time is " + new Date() + ". study end is " + studyEnd);
